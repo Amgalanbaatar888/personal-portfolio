@@ -99,12 +99,12 @@ export const Hero = () => {
   }, []);
 
   return (
-    <div>
+    <div className="animate-jump-in">
       <div id="text">
         <div id="text">
           <div className="line">
-            <p className="word">G.</p>
-            <p className="word">Amgaa</p>
+            <p className="word">MERN</p>
+            <p className="word">STACK</p>
           </div>
 
           <div className="line">
