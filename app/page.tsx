@@ -1,9 +1,14 @@
 "use client";
+
 import { useRef } from "react";
 import { Hero } from "./components/Hero";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { Intro } from "./components/Intro";
+import React from "react";
+import ReactTilt from "react-tilt";
+import { Project1 } from "./components/projects/Project1";
+import { Project2 } from "./components/projects/Project2";
 
 export default function Home() {
   const router = useRouter();
@@ -22,7 +27,7 @@ export default function Home() {
       <div className="w-full h-[10000px] relative ">
         <div
           ref={targetRef}
-          className="flex sticky top-32 text-white justify-center  mt-32 items-center  "
+          className="flex sticky top-0 text-white justify-center  mt-32 items-center  "
         >
           <motion.div
             style={{ x }}
@@ -37,17 +42,15 @@ export default function Home() {
 
           <motion.div
             style={{ x: x2 }}
-            className="w-[1050px]  mt-5 left-[159px] h-[130px]"
+            className="w-[1040px]  mt-5 left-[159px] h-[130px]"
           >
             <img src="./images/pen2.png" alt="pen2" />
           </motion.div>
         </div>
+        <Intro />
+        <Project1 />
+        <Project2 />
       </div>
-      <h1 className="text-white text-3xl font-space">Hello HI OK ok no zxcv</h1>
-      <h1 className="text-white text-3xl font-space font-[700]">
-        Hello HI OK ok no zxcv
-      </h1>
-      {/* <Intro /> */}
     </>
   );
 }

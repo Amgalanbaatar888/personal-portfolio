@@ -188,3 +188,23 @@ body.menu-toggled > .meta-link > span {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
+
+.title:hover {
+  box-shadow: 0 0 20px 20px rgba(112, 20, 210);
+  transition: box-shadow 0.7s;
+}
+
+.tablet-screen {
+  transform-style: preserve-3d;
+  background-image: url(https://assets-global.website-files.com/5c3a6378e76e088403f168d4/61716a0752164bec7454fc1b_portfolio-medtrics-gif.gif);
+  background-position: 50%;
+  background-size: cover;
+  width: 74%;
+  height: 67%;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: auto;
+  right: 13.3%;
+  transform: translateZ(1000px) rotateX(54deg) rotateY(0) rotate(-45.1deg);
+}
