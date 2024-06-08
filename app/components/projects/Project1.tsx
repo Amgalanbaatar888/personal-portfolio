@@ -24,7 +24,7 @@ export function Project1() {
 
           <div className="relative w-[700px] h-[400px] mt-32">
             <img
-              className=" absolute inset-0  object-cover transition-transform duration-300 transform group-hover:scale-105"
+              className=" absolute inset-0  object-cover transition-transform duration-300 transform "
               src="./images/ipad.png"
               alt="ipad"
             />

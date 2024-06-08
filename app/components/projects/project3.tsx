@@ -1,4 +1,4 @@
-export function Project2() {
+export function Project3() {
   return (
     <div className="group container mx-auto relative mt-32 px-[200px] z-30">
       <div className="">
@@ -19,21 +19,25 @@ export function Project2() {
             </button>
           </div>
 
-          <div className="relative w-[497px] top-4 left-5  right-10 flex justify-center items-center">
+          <div className="relative w-[800px] top-4 left-10   flex justify-center items-center">
             <img
-              className=" w-[380px] left-14 flex justify-center items-center absolute inset-0  object-cover transition-transform duration-300 transform "
-              src="./images/com1.svg"
+              className=" w-[300px] left-32 flex justify-center items-center absolute inset-0  object-cover transition-transform duration-300 transform "
+              src="./images/imac1.svg"
               alt="ipad"
             />
             <img
-              className="absolute w-[380px] left-14 inset-0 flex justify-center items-center   object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-              src="./images/mac1.svg"
+              className="absolute w-[300px] left-32 inset-0 flex justify-center items-center   object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              src="./images/imac2.svg"
               alt="ipad"
             />
-            <img className="mt-[140px] " src="./images/com2.svg" alt="ipad" />
             <img
-              className="mt-[140px] opacity-0 absolute object-cover transition-opacity duration-300 group-hover:opacity-100 "
-              src="./images/keyboard2.svg"
+              className="mt-[310px] mr-[150px] w-[200px] "
+              src="./images/keyboardNoColor.svg"
+              alt="ipad"
+            />
+            <img
+              className="mt-[310px] mr-[150px] w-[200px] opacity-0 absolute object-cover transition-opacity duration-300 group-hover:opacity-100 "
+              src="./images/keyboardColor.svg"
               alt="ipad"
             />
           </div>

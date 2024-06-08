@@ -9,6 +9,7 @@ import React from "react";
 import ReactTilt from "react-tilt";
 import { Project1 } from "./components/projects/Project1";
 import { Project2 } from "./components/projects/Project2";
+import { Project3 } from "./components/projects/project3";
 
 export default function Home() {
   const router = useRouter();
@@ -50,6 +51,7 @@ export default function Home() {
         <Intro />
         <Project1 />
         <Project2 />
+        <Project3 />
       </div>
     </>
   );

@@ -11,6 +11,7 @@
   "dependencies": {
     "framer-motion": "^11.2.9",
     "next": "14.2.3",
+    "noname": ".",
     "react": "^18",
     "react-dom": "^18",
     "react-tilt": "^1.0.2",
